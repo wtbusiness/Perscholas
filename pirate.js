@@ -28,4 +28,3 @@ console.log(pirate1);
 console.log(pirate2);
 console.log(pirate3);
   
-
