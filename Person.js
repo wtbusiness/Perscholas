@@ -61,3 +61,6 @@ console.log(chef1);
 const worker1 = new PostWorker('Beginner', 'North', 'short', 'blue', 'brown', 'tall');
 const worker2 = new PostWorker('Pro', 'West', 170 );
 console.log(worker1);
+
+
+
