@@ -4,14 +4,14 @@
 // How do we change the value of a variable?
 //let variable = 10;
 
-// function start() {
-//   variable = 20;
-// }
-// console.log(variable + 20);
+//  function start() {
+//    variable = 20;
+//  }
+//  console.log(variable + 20);
 
 // How do we assign an existing variable to a new variable?
-// let myVar;
-// myVar = 5;
+ let myVar;
+ myVar = 5;
 // let myNum;
 // myNum = myVar;
 
