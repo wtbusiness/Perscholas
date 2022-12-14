@@ -10,8 +10,8 @@
 //  console.log(variable + 20);
 
 // How do we assign an existing variable to a new variable?
- let myVar;
- myVar = 5;
+//  let myVar;
+//  myVar = 5;
 // let myNum;
 // myNum = myVar;
 
@@ -59,41 +59,41 @@
 
 // Booleans
 
-  const a = 4;
-  const b = 53;
-  const c = 57;
-  const d = 16;
-  const e = 'Kevin';
+//   const a = 4;
+//   const b = 53;
+//   const c = 57;
+//   const d = 16;
+//   const e = 'Kevin';
 
-  if (a < b) {
-    console.log(true);
-  }else {
-    console.log(false);
-  }
+//   if (a < b) {
+//     console.log(true);
+//   }else {
+//     console.log(false);
+//   }
 
-  //next
-  if (c > d) {
-    console.log(true);
-  }else {
-    console.log( false);
-  }
+//   //next
+//   if (c > d) {
+//     console.log(true);
+//   }else {
+//     console.log( false);
+//   }
 
-  console.log(a < b);
-  console.log(c > d);
-  console.log('Name' === 'Name');
-  // FOR THE NEXT TWO, USE ONLY && OR ||
-  console.log(true || false);
- console.log(false || false || false || false || false || true);
-  console.log(false == false);
-  console.log(e == 'Kevin');
-  console.log(a < b < c); // note: a < b < c is NOT CORRECT (and is not a valid JS expression, think about using other math operations)
-  console.log(a + a < d); // note: the answer is a simple arithmetic equation, not something "weird"
-  console.log(48 == '48');
+//   console.log(a < b);
+//   console.log(c > d);
+//   console.log('Name' === 'Name');
+//   // FOR THE NEXT TWO, USE ONLY && OR ||
+//   console.log(true || false);
+//  console.log(false || false || false || false || false || true);
+//   console.log(false == false);
+//   console.log(e == 'Kevin');
+//   console.log(a < b < c); // note: a < b < c is NOT CORRECT (and is not a valid JS expression, think about using other math operations)
+//   console.log(a + a < d); // note: the answer is a simple arithmetic equation, not something "weird"
+//   console.log(48 == '48');
 
   //The farm
 
 //   Declare a variable animal. Set it to be either "cow" or something else
-//let animal = "cow";
+let animal = "cow";
 
 // Write code that will print out "mooooo" if the it is equal to cow
 
@@ -146,12 +146,14 @@
 // } 
 
 // saving account
-
-
+// let deposits = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// console.log(deposits.reduce((acc, val) => {
+//   return acc + val
+// }, 0))
 //arrays and control flow
 
 // What are the things in an array called?
-//objects
+//elements
 
 // Do Arrays guarantee those things will be in order?
 //yes
@@ -164,7 +166,10 @@
 // let quotes = ["To be or not to be", "If life were predictable it would cease to be life, and be without flavor.", "Life is what happens when you're busy making other plans" ];
 
 // accessing elements
-
+// const randomThings = [1, 10, "Hello", true];
+// console.log(randomThings[0]);
+// randomThings.splice(2, 1, 'World' );
+// console.log(randomThings);
 // const randomThings = [1, 10, "Hello", true];
 
 // console.log(randomThings[0]);
@@ -189,8 +194,243 @@
 // console.log(myArray);
 // myArray.prototype.reverse();
 
-if ( num <= 100) {
-    console.log('little number');
-} else {
-    console.log('big number');
+// if ( num <= 100) {
+//     console.log('little number');
+// } else {
+//     console.log('big number');
+// }
+
+// if (num <= 5) {
+//   console.log("little number");
+// } else if (num > 10) {
+//   console.log("big number");
+// } else
+//   console.log("Monkey");
+
+  // What's in your closet
+
+  // const kristynsCloset = [
+  //   "left shoe",
+  //   "cowboy boots",
+  //   "right sock",
+  //   "Per Scholas hoodie",
+  //   "green pants",
+  //   "yellow knit hat",
+  //   "marshmallow peeps",
+  // ];
+
+  // Thom's closet is more complicated. Check out this nested data structure!!
+//   const thomsCloset = [
+//     [
+//       // These are Thom's shirts
+//       "grey button-up",
+//       "dark grey button-up",
+//       "light blue button-up",
+//       "blue button-up",
+//     ],
+//     [
+//       // These are Thom's pants
+//       "grey jeans",
+//       "jeans",
+//       "PJs",
+//     ],
+//     [
+//       // Thom's accessories
+//       "wool mittens",
+//       "wool scarf",
+//       "raybans",
+//     ],
+//   ];
+
+//   console.log(`Kristyn is rocking that ${kristynsCloset[2]}
+//   }`);
+//   kristynsCloset.splice(5, 0, 'raybans')
+//   console.log(kristynsCloset);
+  
+// console.log(kristynsCloset.indexOf("yellow knit hat"));
+// kristynsCloset.splice(5 , 1, "stained knit hat");
+// console.log(kristynsCloset);
+
+//thomsCloset[0][0];
+// console.log(thomsCloset[0][0]);
+// console.log(thomsCloset[1][0]);
+// console.log(thomsCloset[2][1]);
+
+// console.log(
+//   `Thom is looking super fierce in a ${thomsCloset[0][0]}, ${thomsCloset[1][0]},${thomsCloset[2][1]} `
+// );
+
+// thomsCloset[1][2] = "Footie Pajamas";
+
+
+// print cool
+
+// const printCool = (name) => {
+//   return `${name} is cool`;
+// };
+
+// console.log(printCool("Captain Reynolds"));
+
+// calculateCube
+
+// const calculateCube = (num) => {
+//   return num * num * num;
+// };
+
+// console.log(calculateCube(5));
+
+// isVowel
+
+// function isVowel(char) {
+//   const arr = ["a", "e", "i", "o", "u"];
+
+//   return arr.includes(char.toLowerCase());
+// }
+
+// console.log(isVowel("a"));
+
+// const getTwoLengths = (str1, str2) => [str1.length, str2.length];
+
+// const getMultipleLengths = (arr) => {
+//   const ans = [];
+//   arr.forEach((str) => {
+//     ans.push(str.length);
+//   });
+//   return ans;
+// };
+
+// console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));
+
+// maxOfThree
+// const maxOfThree = (num1, num2, num3) => {
+//   const arr = [num1, num2, num3];
+
+//   arr.sort((a, b) => {
+//     return b - a;
+//   });
+
+//   return arr[0];
+// };
+
+// console.log(maxOfThree(6, 9, 1));
+
+const printLongestWord = (arr) => {
+  let ans = arr[0];
+  let length = arr[0].length;
+  arr.forEach((str) => {
+    prevLength = length;
+    length = Math.max(ans.length, str.length);
+    if (prevLength !== length) {
+      ans = str;
+    }
+  });
+  return ans;
+};
+
+// console.log(
+//   printLongestWord([
+//     "BoJack",
+//     "Princess",
+//     "Diane",
+//     "a",
+//     "Max",
+//     "Peanutbutter",
+//     "big",
+//     "Todd",
+//   ])
+// );
+// object
+
+
+
+// const user = {
+//   name: "Thomas",
+//   email: "test@test.com",
+//   age: 50,
+//   purchased: [],
+// };
+
+// user.location = "Nevada";
+// user.purchased.push('carbonated');
+// user.purchased.push('peace of mind');
+// user.purchased.push("Merino jodhpurs");
+// console.log(user.purchased[2]);
+
+// user.friend = {
+//   name: "Grace Hopper",
+//   age: 85,
+//   location: 'Kansas',
+//   purchased: []
+// };
+// console.log(user.friend.name);
+// console.log(user.friend.location);
+
+// user.friend.age = 55;
+
+// user.friend.purchased.push("The One Ring");
+// user.friend.purchased.push("A latte");
+// console.log(user.purchased[1]);
+
+// for (let i = 0; i <= user.purchased; i++){
+//   return user.puchase;
+// }
+// console.log(user.purchased);
+
+// for (let i = 0; i <= user.friend.purchased; i++) {
+//   return user.friend.puchase;
+// }
+// console.log(user.friend.purchased);
+
+// function updateUser() {
+//   user.age++;
+//   user.name.toUpperCase();
+// }
+
+// function oldAndLoud(person) {
+//   person.age += 1;
+//   person.name = person.name.toUpperCase();
+
+// }
+
+
+const cat1 = {
+  name: 'tim',
+  breed: 'chita',
+  age: 5
 }
+console.log(cat1.age);
+console.log(cat1.breed);
+
+const cat2 = {
+  name: 'jerry',
+  breed: 'lion',
+  age: 7,
+  
+}
+
+const mama = {
+fullName: "jam",
+age: 45,
+breed: "Siamese"
+}
+
+const papa = {
+fullName: "joe",
+age: 19,
+breed: "Mog"
+}
+function combineCats(mama, papa){
+//  console.log(mama, papa);
+//  console.log(cat1.name + " " + cat2.name);
+return {fullName: mama.fullName + papa.fullName}
+}
+console.log(combineCats(mama, papa));
+console.log(combineCats(combineCats(mama, papa), combineCats(mama, papa))); 
+
+
+
+
+
+
+
+

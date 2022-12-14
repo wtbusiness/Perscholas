@@ -144,24 +144,52 @@ console.log(whereIsWaldo);
 //  Excited Kitten
 ////////////////////////////////
 
-// const kittyTalk = [
-//   "Love me, pet me, HSSS!",
-//   "...human...why you taking pictures of me?...",
-//   "...the catnip made me do it...",
-//   "...why does the red dot always get away..."];
-let kittyTalk = [];
-let meow = 0;
-let HSSS = 1;
+const kittyTalk = [
+  "Love me, pet me, HSSS!",
+  "...human...why you taking pictures of me?...",
+  "...the catnip made me do it...",
+  "...why does the red dot always get away..."];
+//let kittyTalk = [];
+// let meow = 0;
 
 
-for (let i = 0; i <= 20; i++) {
-  console.log(`Love me, pet me, HSSS! `);
-  if (i % 2 === 0) {
-    console.log(kittyTalk[meow]);
-    console.log(kittyTalk);
-  }
-} 
-console.log(kittyTalk);
+
+// for (let i = 0; i <= 20; i++) {
+//   console.log(`Love me, pet me, HSSS! `);
+//   if (i % 2 === 0) {
+//     console.log(kittyTalk[Math.floor(Math.random() * (kittyTalk.length - 1)) + 1]);
+//   }
+// } 
+// console.log(kittyTalk);
 ////////////////////////////////
 //  Find the Median
 ////////////////////////////////
+
+[1,2,3,4].forEach((e) => console.log(e += 1))
+const arr = ["dog", "cat", "zebra"]
+function plusOne (arr) {
+    for (let a of arr){
+        console.log(a)
+    }
+}
+plusOne(arr);
+
+// for (let a of arr){
+//          console.log(a)
+//      }
+
+const person ={
+name: "Wayne",
+pet: "shane",
+hair: "black"
+}
+for(let p in person){
+    console.log(p, person[p]);
+}
+
+
+
+// let names = ["jimmy", "sam", "steve"];
+// for (let n of names){
+//     console.log(n);
+// }
