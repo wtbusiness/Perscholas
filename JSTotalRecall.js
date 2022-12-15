@@ -322,10 +322,40 @@ const printLongestWord = (arr) => {
     length = Math.max(ans.length, str.length);
     if (prevLength !== length) {
       ans = str;
+      console.log(prevLength);
+      console.log(length);
     }
   });
+  console.log(ans);
   return ans;
 };
+
+console.log(
+  printLongestWord([
+    "BoJack",
+    "Princess",
+    "Diane",
+    "a",
+    "Max",
+    "Peanutbutter",
+    "big",
+    "Todd",
+  ])
+);
+
+// function printLongestWord(strings) {
+//   const word = strings;
+//   let longest = [];
+//   for (let i = 1; i < word.length; i++) {
+//     if (longest.length < word[i].length) {
+//       longest = word[i];
+//       console.log(word[i]);
+//     }
+//     console.log(word[i].length);
+//     console.log(longest);
+//   }
+//   return longest;
+// }
 
 // console.log(
 //   printLongestWord([
@@ -339,7 +369,6 @@ const printLongestWord = (arr) => {
 //     "Todd",
 //   ])
 // );
-// object
 
 
 
@@ -421,10 +450,12 @@ breed: "Mog"
 }
 function combineCats(mama, papa){
 //  console.log(mama, papa);
-//  console.log(cat1.name + " " + cat2.name);
-return {fullName: mama.fullName + papa.fullName}
+  console.log(cat1.name + " " + cat2.name);
+return  mama.fullName + " " + papa.fullName
 }
 console.log(combineCats(mama, papa));
+
+
 console.log(combineCats(combineCats(mama, papa), combineCats(mama, papa))); 
 
 
